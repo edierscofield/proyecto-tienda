@@ -1,0 +1,35 @@
+// Import Bootstrap's source Sass files
+@import "~bootstrap/scss/bootstrap";
+
+// Custom variables
+$theme-colors: (
+  "primary": #4CAF50, // Verde fresco
+  "secondary": #795548, // Marrón
+  "success": #8BC34A,
+  "info": #00BCD4,
+  "warning": #FFC107,
+  "danger": #F44336,
+  "light": #F1F1F1,
+  "dark": #212121
+);
+
+$font-family-base: 'Roboto', sans-serif;
+$body-bg: #F1F1F1;
+$body-color: #212121;
+
+// Include Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+// Custom styles
+body {
+    background: linear-gradient(to right, #79c4f7fb, #8BC34A);
+    color: $body-color;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
